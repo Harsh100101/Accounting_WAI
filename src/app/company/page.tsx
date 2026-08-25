@@ -17,19 +17,22 @@ import {
 	RefreshCw,
 	AlertCircle,
 } from "lucide-react";
-import { CompanyHeader } from "../../../components/company/CompanyHeader";
-import { BusinessModelExplainer } from "../../../components/company/BusinessModelExplainer";
-import { FinancialHealthScorecard } from "../../../components/company/FinancialHealthScorecard";
-import { FinancialStoryline } from "../../../components/company/FinancialStoryline";
-import { ContradictionDetector } from "../../../components/company/ContradictionDetector";
-import { StatementViewer } from "../../../components/company/StatementViewer";
-import { EarningsQualitySection } from "../../../components/company/EarningsQualitySection";
-import { RedFlagsEngine } from "../../../components/company/RedFlagsEngine";
-import { QuarterlyChangeCard } from "../../../components/company/QuarterlyChangeCard";
-import { NewsImpactSection } from "../../../components/company/NewsImpactSection";
-import { PeerAnalysis } from "../../../components/company/PeerAnalysis";
-import { ThesisChallenger } from "../../../components/thesis/ThesisChallenger";
-import { AiFinancialTutor } from "../../../components/tutor/AiFinancialTutor";
+
+// UPDATED IMPORTS: Pointing to the new "company-ui" folder
+import { CompanyHeader } from "../../components/company/CompanyHeader";
+import { BusinessModelExplainer } from "../../components/company/BusinessModelExplainer";
+import { FinancialHealthScorecard } from "../../components/company/FinancialHealthScorecard";
+import { FinancialStoryline } from "../../components/company/FinancialStoryline";
+import { ContradictionDetector } from "../../components/company/ContradictionDetector";
+import { StatementViewer } from "../../components/company/StatementViewer";
+import { EarningsQualitySection } from "../../components/company/EarningsQualitySection";
+import { RedFlagsEngine } from "../../components/company/RedFlagsEngine";
+import { QuarterlyChangeCard } from "../../components/company/QuarterlyChangeCard";
+import { NewsImpactSection } from "../../components/company/NewsImpactSection";
+import { PeerAnalysis } from "../../components/company/PeerAnalysis";
+
+import { ThesisChallenger } from "../../components/thesis/ThesisChallenger";
+import { AiFinancialTutor } from "../../components/tutor/AiFinancialTutor";
 import {
 	Company,
 	CompanyProfile,
